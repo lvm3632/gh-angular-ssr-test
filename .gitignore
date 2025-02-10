@@ -5,11 +5,6 @@ node_modules/
 dist/
 out-tsc/
 
-# Angular CLI configuration
-.angular/
-.angular.json
-package-lock.json
-yarn.lock
 
 # Logs and temporary files
 npm-debug.log*
@@ -22,9 +17,6 @@ yarn-error.log*
 .idea/
 .vscode/
 *.swp
-
-# Environment files (variables sensibles)
-src/environments/environment.*.ts
 
 # Compiled TypeScript files
 *.js
