@@ -28,7 +28,7 @@ export class AppComponent {
             // Safe to check `scrollHeight` because this will only run in the browser, not the server.
             console.log('content height: ' + this.contentRef.nativeElement.scrollHeight);
 
-            http.get<any>('/api/users').subscribe(users => {
+            http.get<any>('https://jsonplaceholder.typicode.com/users').subscribe(users => {
                 // process the configuration.
                 this.users = users;
             });
